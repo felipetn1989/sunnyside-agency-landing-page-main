@@ -160,7 +160,7 @@ header > img {
   margin-bottom: 5.25rem;
 }
 
-nav {
+.nav__top {
   display: none;
 }
 
@@ -219,16 +219,74 @@ nav {
   color: var(--Dark-blue);
 }
 
+.quotes {
+  padding: 4rem 2rem;
+  display: grid;
+  gap: 4rem;
+}
+
 figure {
-  padding: 3.5rem 2.25rem;
+  display: grid;
+  gap: 2rem;
+  font-size: 1.1875rem;
+  color: var(--Very-dark-grayish-blue);
+}
+
+figure img {
+  width: 4.5rem;
+  border-radius: 50%;
+  margin: auto;
 }
 
 .testimonials h2 {
   text-transform: uppercase;
   font-size: 1rem;
-  padding-top: 3.5rem;
-  letter-spacing: .1875rem;
+  letter-spacing: 0.1875rem;
   color: var(--Grayish-blue);
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.quote_name {
+  font-family: var(--ff-serif);
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: var(--fw-black);
+}
+
+.quote_job {
+  font-size: 0.9375rem;
+  color: var(--Grayish-blue);
+}
+
+.testimonials__images:nth-child(1) {
+  grid-area: one;
+}
+
+.testimonials__images:nth-child(2) {
+  grid-area: two;
+}
+
+.testimonials__images:nth-child(3) {
+  grid-area: three;
+}
+
+.testimonials__images:nth-child(4) {
+  grid-area: four;
+}
+
+.bottom_pics {
+  display: grid;
+  grid-template-areas:
+    "one two"
+    "three four";
+}
+
+footer {
+  background-color: hsl(167, 44%, 70%);
 }
 
 .attribution {
