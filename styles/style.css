@@ -105,6 +105,7 @@ h6 {
 
 body {
   font-family: var(--ff-sans);
+  text-align: center;
 }
 
 h1,
@@ -149,8 +150,7 @@ header h1 {
   color: var(--White);
   font-weight: var(--fw-black);
   font-size: 2.25rem;
-  text-align: center;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   margin-top: 5.5rem;
 }
 
@@ -168,14 +168,71 @@ nav {
 
 .text {
   padding: 4rem 2rem;
-  text-align: center;
 }
 
+.learn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: var(--fw-black);
+  font-family: var(--ff-serif);
+  background-image: linear-gradient(to bottom, var(--White) 60%, #fef3b5 60%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
 
+.pink {
+  background-image: linear-gradient(to bottom, var(--White) 60%, #fcdad1 60%);
+}
+
+.design {
+  background: url(../images/mobile/image-graphic-design.jpg) no-repeat center
+    top/cover;
+}
+
+.text__background {
+  padding: 25rem 1.125rem 2rem 1.125rem;
+}
+
+.text__background h2,
+.text__background p {
+  color: var(--Dark-desaturated-cyan);
+  font-weight: var(--fw-black);
+}
+
+.text__background h2 {
+  font-size: 1.75rem;
+}
+
+.text__background p {
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+}
+
+.photography {
+  background: url(../images/mobile/image-photography.jpg) no-repeat center
+    top/cover;
+}
+
+.photography h2,
+.photography p {
+  color: var(--Dark-blue);
+}
+
+figure {
+  padding: 3.5rem 2.25rem;
+}
+
+.testimonials h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-top: 3.5rem;
+  letter-spacing: .1875rem;
+  color: var(--Grayish-blue);
+}
 
 .attribution {
   font-size: 0.6875rem;
-  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
