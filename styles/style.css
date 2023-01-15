@@ -211,6 +211,10 @@ header > img {
 
 /* Sections */
 
+.decorative_images {
+  width: 100%;
+}
+
 .text {
   padding: 4rem 2rem;
 }
