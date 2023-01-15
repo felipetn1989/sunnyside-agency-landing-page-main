@@ -347,7 +347,8 @@ footer > img {
 
 .info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 3.5rem;
   font-size: 1.125rem;
 }
 
