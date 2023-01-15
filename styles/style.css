@@ -181,6 +181,10 @@ header > img {
   border-radius: 0.5rem;
 }
 
+.learn:hover {
+  cursor: pointer;
+}
+
 .pink {
   background-image: linear-gradient(to bottom, var(--White) 60%, #fcdad1 60%);
 }
@@ -307,11 +311,26 @@ footer > img {
   color: var(--Dark-moderate-cyan);
 }
 
+.info a:hover {
+  cursor: pointer;
+  color: var(--White);
+}
+
 .contact_icons {
   display: flex;
   justify-content: center;
   gap: 1.75rem;
   margin-top: 5rem;
+}
+
+ion-icon {
+  font-size: 1.5rem;
+  color: var(--Dark-desaturated-cyan);
+}
+
+ion-icon:hover {
+  cursor: pointer;
+  color: var(--White);
 }
 
 .attribution {
