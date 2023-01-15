@@ -81,7 +81,7 @@ h6 {
 
   --Soft-red: hsl(7, 99%, 70%);
   --Yellow: hsl(51, 100%, 49%);
-  --Dark-desaturated-cyan: hsl(167, 40%, 24%); /*  (graphic design text) */
+  --Dark-desaturated-cyan: #25564b; /*  (graphic design text) */
   --Dark-blue: hsl(198, 62%, 26%); /* (photography text) */
   --Dark-moderate-cyan: hsl(168, 34%, 41%); /* (footer) */
 
@@ -287,9 +287,35 @@ figcaption {
 
 footer {
   background-color: hsl(167, 44%, 70%);
+  padding: 4rem 2.5rem;
+}
+
+footer > img {
+  margin: auto;
+  width: 10rem;
+  margin-bottom: 2.25rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.125rem;
+}
+
+.info a {
+  text-decoration: none;
+  color: var(--Dark-moderate-cyan);
+}
+
+.contact_icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+  margin-top: 5rem;
 }
 
 .attribution {
+  margin-top: 2rem;
   font-size: 0.6875rem;
 }
 .attribution a {
