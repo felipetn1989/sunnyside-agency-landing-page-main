@@ -146,6 +146,10 @@ header {
   align-items: center;
 }
 
+#hamburgerIcon:hover {
+  cursor: pointer;
+}
+
 header h1 {
   color: var(--White);
   font-weight: var(--fw-black);
