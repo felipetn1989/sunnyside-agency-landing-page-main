@@ -176,7 +176,7 @@ header > img {
 
 .nav__top {
   position: relative;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 2rem;
   background-color: var(--White);
