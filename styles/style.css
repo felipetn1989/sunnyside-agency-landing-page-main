@@ -193,7 +193,7 @@ header > img {
   font-size: 1.1875rem;
 }
 
-.contact {
+#contact {
   background-color: var(--Yellow);
   width: fit-content;
   align-self: center;
@@ -201,9 +201,6 @@ header > img {
   border-radius: 2rem;
   text-transform: uppercase;
   font-family: var(--ff-serif);
-}
-
-.contact span {
   font-size: 1rem;
   color: var(--Very-dark-desaturated-blue);
 }
@@ -392,10 +389,16 @@ ion-icon:hover {
 
 /* Media Query Desktop */
 
-@media screen and (min-width:60em) {
+@media screen and (min-width: 60em) {
+  .sunnyside_logo {
+    width: 10rem;
+  }
+
   .nav__top {
+    position: unset;
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: unset;
     width: unset;
     top: unset;
@@ -406,6 +409,16 @@ ion-icon:hover {
 
   .nav__top > a {
     align-items: center;
+    color: var(--White);
+  }
+
+  #contact {
+    background-color: var(--White);
+  }
+
+  #contact:hover {
+    background-color: #6eceff;
+    color: var(--White);
   }
 
   .top {
@@ -419,5 +432,17 @@ ion-icon:hover {
 
   #hamburgerIcon {
     display: none;
+  }
+
+  header {
+    background-image: url(../images/desktop/image-header.jpg);
+  }
+
+  header h1 {
+    font-size: 3.25rem;
+  }
+
+  header > img {
+    margin-top: 5.25rem;
   }
 }
