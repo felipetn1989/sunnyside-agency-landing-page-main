@@ -175,7 +175,6 @@ header > img {
 }
 
 .nav__top {
-  position: relative;
   display: none;
   flex-direction: column;
   gap: 2rem;
@@ -389,4 +388,36 @@ ion-icon:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media Query Desktop */
+
+@media screen and (min-width:60em) {
+  .nav__top {
+    display: flex;
+    flex-direction: row;
+    background-color: unset;
+    width: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    padding: unset;
+  }
+
+  .nav__top > a {
+    align-items: center;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .triangle {
+    display: none;
+  }
+
+  #hamburgerIcon {
+    display: none;
+  }
 }
