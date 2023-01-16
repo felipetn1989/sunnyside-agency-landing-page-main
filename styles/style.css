@@ -389,7 +389,7 @@ ion-icon:hover {
 
 /* Media Query Desktop */
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 70em) {
   .sunnyside_logo {
     width: 10rem;
   }
@@ -451,9 +451,18 @@ ion-icon:hover {
     font-size: 2.375rem;
   }
 
+  .transform,
+  .stand {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .transform {
-    display: flex;
-    flex-direction: row-reverse;
+    grid-template-areas: "one two";
+  }
+
+  .stand {
+    grid-template-areas: "two one";
   }
 
   .text {
@@ -461,20 +470,88 @@ ion-icon:hover {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    flex: 1;
+    box-sizing: border-box;
+    grid-area: one;
   }
 
-  .text > h2, .text > p {
+  .text > h2,
+  .text > p {
     padding: 0 8rem;
   }
 
   .decorative_images {
-    flex: 1;
+    grid-area: two;
   }
 
   .learn {
     display: block;
     width: 9rem;
     margin-left: 8rem;
+  }
+
+  .fruits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .design {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+  }
+
+  .photography {
+    background-image: url(../images/desktop/image-photography.jpg);
+  }
+
+  .text__background {
+    padding: 57% 10rem 2rem 10rem;
+  }
+
+  .quotes > h2 {
+    grid-area: one;
+    font-size: 1.25rem;
+  }
+
+  figure:nth-child(1) {
+    grid-area: two;
+  }
+
+  figure:nth-child(2) {
+    grid-area: three;
+  }
+
+  figure:nth-child(3) {
+    grid-area: four;
+  }
+
+  .quotes {
+    display: grid;
+    grid-template-areas:
+      "one one one"
+      "three four two";
+    padding: 8rem 9rem;
+  }
+
+  figure {
+    gap: 4rem;
+  }
+
+  .grid_pics:nth-child(1) {
+    grid-area: one;
+  }
+
+  .grid_pics:nth-child(2) {
+    grid-area: two;
+  }
+
+  .grid_pics:nth-child(3) {
+    grid-area: three;
+  }
+
+  .grid_pics:nth-child(4) {
+    grid-area: four;
+  }
+
+  .bottom_pics {
+    grid-template-areas: "one two three four";
   }
 }

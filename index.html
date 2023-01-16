@@ -76,25 +76,27 @@
           <a href="#" class="learn pink">Learn more</a>
         </div>
       </section>
-      <section class="design">
-        <div class="text text__background">
-          <h2>Graphic design</h2>
-          <p>
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-      </section>
-      <section class="photography">
-        <div class="text__background">
-          <h2>Photography</h2>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
-        </div>
-      </section>
+      <div class="fruits">
+        <section class="design">
+          <div class="text__background">
+            <h2>Graphic design</h2>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </section>
+        <section class="photography">
+          <div class="text__background">
+            <h2>Photography</h2>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </section>
+      </div>
       <section class="testimonials">
         <div class="quotes">
           <h2>Client testimonials</h2>
@@ -145,30 +147,54 @@
           </figure>
         </div>
         <div class="bottom_pics">
-          <img
-            class="decorative_images"
-            src="images/mobile/image-gallery-milkbottles.jpg"
-            alt="Picture of milkbottles in front of a blue sky with clouds"
-            class="testmonials__images"
-          />
-          <img
-            class="decorative_images"
-            src="images/mobile/image-gallery-orange.jpg"
-            alt="Picture of an orange on a plate"
-            class="testmonials__images"
-          />
-          <img
-            class="decorative_images"
-            src="images/mobile/image-gallery-cone.jpg"
-            alt="Picture of an ice cream cone in front a blue sky"
-            class="testmonials__images"
-          />
-          <img
-            class="decorative_images"
-            src="images/mobile/image-gallery-sugar-cubes.jpg"
-            alt="Picture of sugar cubes on a pink background"
-            class="testmonials__images"
-          />
+          <picture>
+            <source
+              media="(min-width:70em)"
+              srcset="images/desktop/image-gallery-milkbottles.jpg"
+            />
+            <img
+              class="decorative_images grid_pics"
+              src="images/mobile/image-gallery-milkbottles.jpg"
+              alt="Picture of milkbottles in front of a blue sky with clouds"
+              class="testmonials__images"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width:70em)"
+              srcset="images/desktop/image-gallery-orange.jpg"
+            />
+            <img
+              class="decorative_images grid_pics"
+              src="images/mobile/image-gallery-orange.jpg"
+              alt="Picture of an orange on a plate"
+              class="testmonials__images"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width:70em)"
+              srcset="images/desktop/image-gallery-cone.jpg"
+            />
+            <img
+              class="decorative_images grid_pics"
+              src="images/mobile/image-gallery-cone.jpg"
+              alt="Picture of an ice cream cone in front a blue sky"
+              class="testmonials__images"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width:70em)"
+              srcset="images/desktop/image-gallery-sugarcubes.jpg"
+            />
+            <img
+              class="decorative_images grid_pics"
+              src="images/mobile/image-gallery-sugar-cubes.jpg"
+              alt="Picture of sugar cubes on a pink background"
+              class="testmonials__images"
+            />
+          </picture>
         </div>
       </section>
     </main>
