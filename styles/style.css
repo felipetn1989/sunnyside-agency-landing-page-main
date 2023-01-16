@@ -444,5 +444,35 @@ ion-icon:hover {
 
   header > img {
     margin-top: 5.25rem;
+    margin-bottom: 16rem;
+  }
+
+  h2 {
+    font-size: 2.375rem;
+  }
+
+  .transform {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex: 1;
+  }
+
+  .text > h2, .text > p {
+    padding: 0 8rem;
+  }
+
+  .decorative_images {
+    flex: 1;
+  }
+
+  .learn {
+    width: 9rem;
   }
 }
