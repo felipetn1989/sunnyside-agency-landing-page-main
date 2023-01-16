@@ -473,6 +473,8 @@ ion-icon:hover {
   }
 
   .learn {
+    display: block;
     width: 9rem;
+    margin-left: 8rem;
   }
 }
