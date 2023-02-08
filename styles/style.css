@@ -128,7 +128,7 @@ p {
   color: var(--Dark-grayish-blue);
   font-weight: var(--fw-black);
   font-size: 1.125rem;
-  margin: 1.75rem 0;
+  margin: 1.75rem 0 2.5rem 0;
 }
 
 /* Header */
@@ -212,7 +212,7 @@ header > img {
 }
 
 .text {
-  padding: 4rem 2rem;
+  padding: 4.25rem 2rem;
 }
 
 .learn {
@@ -240,7 +240,7 @@ header > img {
 }
 
 .text__background {
-  padding: 105% 1.125rem 2rem 1.125rem;
+  padding: 106% 1.125rem 2rem 1.125rem;
 }
 
 .text__background h2,
@@ -269,15 +269,15 @@ header > img {
 }
 
 .quotes {
-  padding: 4rem 2rem;
+  padding: 3.5rem 1.75rem 6rem 1.75rem;
   display: grid;
   gap: 4rem;
 }
 
 figure {
   display: grid;
-  gap: 2rem;
-  font-size: 1.1875rem;
+  gap: 2.25rem;
+  font-size: 1.125rem;
   color: var(--Very-dark-grayish-blue);
 }
 
@@ -287,9 +287,10 @@ figure img {
   margin: auto;
 }
 
+
 .testimonials h2 {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.125rem;
   letter-spacing: 0.1875rem;
   color: var(--Grayish-blue);
 }
@@ -341,7 +342,7 @@ footer {
 
 footer > img {
   margin: auto;
-  width: 10rem;
+  width: 11rem;
   margin-bottom: 2.25rem;
 }
 
@@ -350,6 +351,7 @@ footer > img {
   justify-content: center;
   gap: 3.5rem;
   font-size: 1.125rem;
+  margin-top: 2.5rem;
 }
 
 .info a {
