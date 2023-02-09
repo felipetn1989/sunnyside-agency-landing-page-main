@@ -400,6 +400,7 @@ ion-icon:hover {
     position: unset;
     display: flex;
     flex-direction: row;
+    gap: 2.5rem;
     align-items: center;
     background-color: unset;
     width: unset;
@@ -438,10 +439,12 @@ ion-icon:hover {
 
   header {
     background-image: url(../images/desktop/image-header.jpg);
+    padding: 2rem 2.75rem 4.5rem 2.75rem;
   }
 
   header h1 {
-    font-size: 3.25rem;
+    font-size: 3.5rem;
+    margin-top: 6.25rem;
   }
 
   header > img {
@@ -478,7 +481,7 @@ ion-icon:hover {
 
   .text > h2,
   .text > p {
-    padding: 0 8rem;
+    padding: 0 5.25rem;
   }
 
   .decorative_images {
@@ -488,7 +491,8 @@ ion-icon:hover {
   .learn {
     display: block;
     width: 9rem;
-    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
   }
 
   .fruits {
@@ -527,10 +531,11 @@ ion-icon:hover {
 
   .quotes {
     display: grid;
+    gap: 4.75rem;
     grid-template-areas:
       "one one one"
       "three four two";
-    padding: 8rem 9rem;
+    padding: 9.5rem 10rem 9.75rem 10rem;
   }
 
   figure {
