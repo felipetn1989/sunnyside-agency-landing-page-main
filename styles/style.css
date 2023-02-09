@@ -562,3 +562,9 @@ ion-icon:hover {
     grid-template-areas: "one two three four";
   }
 }
+
+/* Classes for JavaScripts */
+
+.menuDisplay {
+  display: flex;
+}
